@@ -7,6 +7,7 @@ const memeImage = getElementById('meme-image');
 const btnFire = getElementById('fire');
 const btnWater = getElementById('water');
 const btnEarth = getElementById('earth');
+const btnMoudura = getElementById('moudura');
 const meme1 = document.querySelector('#meme-1');
 const meme2 = document.querySelector('#meme-2');
 const meme3 = document.querySelector('#meme-3');
@@ -40,6 +41,11 @@ const borderEarth = () => {
   containerMeme.style.border = '6px groove rgb(0,128,0)';
 };
 
+const borderMoudura = () => {
+  containerMeme.style.border = '2px solid black';
+};
+
+
 const imgmeme1 = () => {
   memeImage.src = meme1.src;
 };
@@ -62,6 +68,7 @@ inputMemeText.addEventListener('keyup', inputText);
 btnFire.addEventListener('click', borderFire);
 btnWater.addEventListener('click', borderWater);
 btnEarth.addEventListener('click', borderEarth);
+btnMoudura.addEventListener('click', borderMoudura);
 
 window.onload = () => {
   containerMeme.style.border = '1px solid black';

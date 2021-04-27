@@ -4,34 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Meme Generator</title>
 </head>
 <body>
-  <header><h1>Meme Generator</h1></header>
-  <p>
-    Texto:
+  <header><h1 class="text">MEME GENERATOR</h1>
+  <div class="contain-input">
+    <label class="text" for="text-input">Digite aqui:</label>
     <input type="text" name="text-input" id="text-input" maxlength="60">
-  </p>
-  <p>
-    Imagem:
+</div>
+<div class="contain-input">
+    <label class="text" for="meme-insert">Escolha uma imagem:</label>
     <input type="file" name="meme-insert" id="meme-insert" accept="image/png, image/jpeg">
   </p>
-  
+</div>
+</header>
   <div id="meme-image-container">
     <h2 id="meme-text"></h2>
     <img src="" id="meme-image">
   </div>
-  <button id="fire">Fire</button>
-  <button id="water">Water</button>
-  <button id="earth">Earth</button>
-  <h5>Memes pré prontos</h5>
+  <div class="contain-btn-border">
+  <button class="btn-border" id="fire">Fire</button>
+  <button class="btn-border" id="water">Water</button>
+  <button class="btn-border" id="earth">Earth</button>
+  <button class="btn-border" id="moudura">Moudura</button>
+  </div>
+  <h5 class="text">Memes pré prontos</h5>
   <div class="memes-prontos">
     <div class="memes"><img id="meme-1" class="img-meme" src="imgs/meme1.png" alt=""></div>
     <div class="memes"><img id="meme-2" class="img-meme" src="imgs/meme2.png" alt=""></div>
     <div class="memes"><img id="meme-3" class="img-meme" src="imgs/meme3.png" alt=""></div>
     <div class="memes"><img id="meme-4" class="img-meme" src="imgs/meme4.png" alt=""></div>
   </div>
+  <footer class="text">Desenvolvido por Renato GSouza - imagens retirada da internet</footer>
   <script src="script.js"></script>
 </body>
 </html>
