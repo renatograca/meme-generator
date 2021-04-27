@@ -10,4 +10,4 @@ ou escolher os modelos pré prontos.
 
 E se tiver um feedback por favor fique a vontade para entrar em contato comigo,
 
-meu<a href="https://www.linkedin.com/in/jos%C3%A9-renato-souza-das-gra%C3%A7as-142897170/"> LinkedIn</a> , tmj!
+meu<a href="https://www.linkedin.com/in/jos%C3%A9-renato-souza-das-gra%C3%A7as-142897170/" target="_blank"> LinkedIn</a> , tmj!
